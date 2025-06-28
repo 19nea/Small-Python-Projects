@@ -12,7 +12,7 @@ source = "C:/Vaults/Vault1"
 # Create timestamped backup folder path
 now = datetime.now()
 timestamp = now.strftime("%Y-%m-%d")
-backup_folder = os.path.join(backup, 'Brain_Backup-' + timestamp)
+backup_folder = os.path.join(backup, 'Vault1_Backup-' + timestamp)
 
 
 # scheduleing the daily backups
